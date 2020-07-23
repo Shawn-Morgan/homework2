@@ -33,24 +33,6 @@ h1, h2 {
     letter-spacing: 0.015em;
 }
 
-/*h1 {
-    font-size: 1.7em;
-}
-
-h2 {
-    font-size: 1.4em;
-} 
-
-p strong, label strong {
-    color      : var(--color-text-highlight);
-    font-weight: bold;
-}
-
-figcaption strong {
-    font-weight: bold;
-} */
-
-
 /* top */
 #top_pane {
     background   : var(--color-light-theme);
@@ -84,11 +66,6 @@ figcaption strong {
     margin         : 0 12.5px;
     padding-right  : 30px;
 }
-
-/*
-#website_menu a:hover {
-    text-decoration: underline;
-} */
 
 #website_menu a.last_link {
     border-right : 0;
@@ -138,7 +115,7 @@ figcaption strong {
     text-align: right;
 }
 
-/* index page */
+/* index page end */
 
 
 /* portfolio page */
@@ -149,6 +126,7 @@ figcaption strong {
     margin-bottom: 0.4em;
 }
 
+/*
 .left_pane .portfolio img {
     border    : 2px solid var(--color-separator);
     max-width : 100%;
@@ -156,6 +134,7 @@ figcaption strong {
     width     : 226px;
     margin    : 0 20px 20px 20px;
 }
+*/
 
 /* contact page */
 .left_pane label {
@@ -183,7 +162,7 @@ figcaption strong {
     height       : 160px;
     margin-bottom: 15px;
     padding      : 8px 4px 8px 12px;
-}
+} 
 
 .left_pane #form_submit {
     background-color: var(--color-mint-green);
@@ -191,18 +170,17 @@ figcaption strong {
     font-size       : 1.3em;
     font-weight     : bold;
     text-align      : center;
-    
     display         : block;
     width           : 36%;
     margin-top      : 8%;
     padding         : 2% 0;
 }
 
-/* contact page */
 .left_pane p {
     line-height   : 1.8em;
     padding-bottom: 1.2em;
 }
+/* contact page end*/
 
 /* desktop */
 @media all and (max-width: 980px) and (min-width: 769px), all and (max-device-width: 980px) and (min-device-width: 769px) {
@@ -214,7 +192,6 @@ figcaption strong {
         width : 98%;
         margin: auto;
     }
-    
 
     /* top pane */
     #website_menu {
@@ -251,7 +228,7 @@ figcaption strong {
         margin-top   : 0.4em;
         margin-bottom: 1.6em;
     }
-    /* index page */
+    /* index page end */
 
 
     /* portfolio page */
@@ -264,15 +241,7 @@ figcaption strong {
         width : 100%;
         margin: 1.82% auto;
     }
-
-    /*.left_pane .portfolio figcaption {
-        width  : 90%;
-        bottom : 7.5%;
-        left   : 0;
-        padding: 5.5%;
-    } */
-
-    /* portfolio page */
+    /* portfolio page end */
 
 
     /* contact page */
@@ -291,24 +260,6 @@ figcaption strong {
         padding      : 1.45% 0.72% 1.45% 2.18%; /* 8px, 4px, 8px, 12px relative to 550px */
     }
     /* contact page */
-
-
-    .right_pane {
-        font-size: 1.77vw;                  /* 17px relative to 960px */
-
-        width    : 22.92%;                  /* 220px relative to 960px */
-        margin   : 4.17% 0;                 /* 40px relative to 960px */
-        padding  : 4.69% 2.60% 3.65% 2.60%; /* 45px, 25px, 35px, 25px relative to 960px */
-    }
-
-    .right_pane h2 {
-        margin-top    : 0.91%;  /* 2px relative to 220px */
-        margin-bottom : 11.23%; /* 24.71px relative to 220px */
-        padding-bottom: 8.18%;  /* 18px relative to 220px */
-    }
-
-
-
 
 /* tablet */
 @media all and (max-width: 768px) and (min-width: 641px), all and (max-device-width: 768px) and (min-device-width: 641px) {
@@ -392,62 +343,25 @@ figcaption strong {
         width : 100%;
         margin: 1.5%;
     }
-
-    /*.left_pane .portfolio figcaption {
-        width  : 94.5%;
-        bottom : 10%;
-        left   : 1.5%;
-        padding: 3.5%;
-    }*/
-
-    /* portfolio page */
+    /* portfolio page end */
 
 
     /* contact page */
     .left_pane label {
-        margin-bottom: 2.73%; /* 15px relative to 550px */
+        margin-bottom: 2.73%; 
     }
 
     .left_pane input {
-        margin-bottom: 2.73%;                   /* 15px relative to 550px */
-        padding      : 1.45% 0.72% 1.45% 2.18%; /* 8px, 4px, 8px, 12px relative to 550px */
+        margin-bottom: 2.73%;                   
+        padding      : 1.45% 0.72% 1.45% 2.18%; 
     }
 
     .left_pane textarea {
-        height       : 29.09%;                  /* 160px relative to 550px */
-        margin-bottom: 2.73%;                   /* 15px relative to 550px */
-        padding      : 1.45% 0.72% 1.45% 2.18%; /* 8px, 4px, 8px, 12px relative to 550px */
+        height       : 29.09%;                  
+        margin-bottom: 2.73%;                   
+        padding      : 1.45% 0.72% 1.45% 2.18%; 
     }
-    /* contact page */
-
-    .right_pane {
-        clear  : both;
-        float  : none;
-        width  : 89.58%;
-        margin : 4.17% 0;                 /* Same as desktop */
-        padding: 4.17% 5.21% 3.13% 5.21%; /* Same as desktop */
-    }
-
-    .right_pane:hover {
-        box-shadow: 0 3px  6px 4px rgba(0, 0, 0, 0.12),
-                    0 4px 14px 6px rgba(0, 0, 0, 0.07);
-    }
-
-    .right_pane h2 {
-        margin-bottom : 6%;
-        padding-bottom: 5%;
-    }
-
-    .right_pane img {
-        width : 15%;
-        margin: 2%;
-    }
-
-
-    /* bottom pane */
-    #bottom_pane {
-        padding: 10%;
-    }
+    /* contact page end */
 }
 
 
@@ -475,7 +389,6 @@ figcaption strong {
 
     #website_menu {
         text-align: center;
-        
         float     : none;
         position  : static;
         width     : 100%;
@@ -488,7 +401,6 @@ figcaption strong {
         background      :      -o-linear-gradient(white, var(--color-separator)); 
         background      :    -moz-linear-gradient(white, var(--color-separator)); 
         background      :         linear-gradient(white, var(--color-separator));
-        
         margin          : 0 2.5%;
         border          : 1px solid var(--color-separator);
         padding         : 2% 5%;
@@ -504,16 +416,16 @@ figcaption strong {
     }
 
 
-    /* All things related to the middle pane */
+    /* middle pane */
     #middle_pane {
         width  : 98%;
-        padding: 5.47% 1% 6.25% 1%; /* 35px, 40px relative to 640 px */
+        padding: 5.47% 1% 6.25% 1%; 
     }
 
     .left_pane {
         width  : 89.58%;
-        margin : 4.17% 0 7% 0;            /* Same as tablet */
-        padding: 4.17% 5.21% 3.13% 5.21%; /* Same as tablet */
+        margin : 4.17% 0 7% 0;            
+        padding: 4.17% 5.21% 3.13% 5.21%; 
     }
 
     .left_pane:hover {
@@ -528,7 +440,7 @@ figcaption strong {
 
 
     /* index page */
-    .left_pane .profile_photo img {
+    .left_pane .profilephoto img {
         display      : block;
         float        : none;
         max-width    : 50%;
@@ -560,62 +472,28 @@ figcaption strong {
         left   : 0;
         padding: 5.5%;
     }
-    /* portfolio page */
+    /* portfolio page end */
 
 
     /* contact page */
     .left_pane label {
-        margin-bottom: 2.73%; /* 15px relative to 550px */
+        margin-bottom: 2.73%; 
     }
 
     .left_pane input {
-        margin-bottom: 2.73%;                   /* 15px relative to 550px */
-        padding      : 1.45% 0.72% 1.45% 2.18%; /* 8px, 4px, 8px, 12px relative to 550px */
+        margin-bottom: 2.73%;                   
+        padding      : 1.45% 0.72% 1.45% 2.18%; 
     }
 
     .left_pane textarea {
-        height       : 29.09%;                  /* 160px relative to 550px */
-        margin-bottom: 2.73%;                   /* 15px relative to 550px */
-        padding      : 1.45% 0.72% 1.45% 2.18%; /* 8px, 4px, 8px, 12px relative to 550px */
+        height       : 29.09%;                  
+        margin-bottom: 2.73%;                   
+        padding      : 1.45% 0.72% 1.45% 2.18%; 
     }
     /* contact page */
 
 
     .left_pane p {
         clear: both;
-    }
-
-    .right_pane {
-        clear  : both;
-        float  : none;
-        width  : 89.58%;
-        margin : 4.17% 0;                 /* Same as tablet */
-        padding: 4.17% 5.21% 3.13% 5.21%; /* Same as tablet */
-    }
-
-    .right_pane:hover {
-        box-shadow: 0 3px  6px 4px rgba(0, 0, 0, 0.12),
-                    0 4px 14px 6px rgba(0, 0, 0, 0.07);
-    }
-
-    .right_pane h2 {
-        margin-bottom : 6%;
-        padding-bottom: 5%;
-    }
-
-    .right_pane img {
-        width : 15%;
-        margin: 2%;
-    }
-
-    .right_pane img:hover {
-        background-color: var(--color-light-theme);
-        opacity         : 1;
-    }
-
-
-    /* All things related to the bottom pane */
-    #bottom_pane {
-        padding: 5.5%;
     }
 }
